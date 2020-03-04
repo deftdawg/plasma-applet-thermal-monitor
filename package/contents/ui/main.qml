@@ -55,8 +55,8 @@ Item {
     property double iconBottomMargin: itemHeight * plasmoid.configuration.iconBottomMargin * 0.01
     property bool enableLabelDropShadow: plasmoid.configuration.enableLabelDropShadow
 
-    property var systemmonitorAvailableSources
-    property var systemmonitorSourcesToAdd
+    property var systemmonitorAvailableSources 
+    property var systemmonitorSourcesToAdd : []
 
     property int numberOfParts: temperatureModel.count
 
