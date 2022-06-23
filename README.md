@@ -30,6 +30,7 @@ $ cd plasma-applet-thermal-monitor/
 $ mkdir build
 $ cd build
 $ cmake .. -DCMAKE_INSTALL_PREFIX=/usr
+$ cd ..
 $ sudo make install
 ```
 
